@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <header>Calculator</header>
+    <div class="container">
+      <div class="answerBar" id="input1" ></div>
+
+      <div class="inputButtons">
+        <div class="first-row">
+          <div class="rowOneButtons">
+            <button id="seven" value="7" onclick="ins(7)">7</button>
+          </div>
+          <div class="rowOneButtons">
+            <button id="eight" value="8" onclick="ins(8)">8</button>
+          </div>
+          <div class="rowOneButtons">
+            <button id="nine" value="9" onclick="ins(9)">9</button>
+          </div>
+          <div class="rowOneButtons">
+            <button id="divide" value="/" onclick="ins('/')">/</button>
+          </div>
+        </div>
+        <div class="second-row">
+          <div class="rowTwoButtons">
+            <button id="four" value="4" onclick="ins(4)">4</button>
+          </div>
+
+          <div class="rowTwoButtons">
+            <button id="five" value="5" onclick="ins(5)">5</button>
+          </div>
+
+          <div class="rowTwoButtons">
+            <button id="six" value="6" onclick="ins(6)">6</button>
+          </div>
+
+          <div class="rowTwoButtons">
+            <button id="multiply" value="'x'" onclick="ins('*')">x</button>
+          </div>
+        </div>
+
+        <div class="third-row">
+          <div class="rowThreeButtons">
+            <button id="one" value="1" onclick="ins(1)">1</button>
+          </div>
+
+          <div class="rowThreeButtons">
+            <button id="two value="2" onclick="ins(2)">2</button>
+          </div>
+
+          <div class="rowThreeButtons">
+            <button id="three" value="3" onclick="ins(3)">3</button>
+          </div>
+
+          <div class="rowThreeButtons">
+            <button id="minus" value="-" onclick="ins('-')">-</button>
+          </div>
+        </div>
+
+        <div class="fourth-row">
+          <div class="rowFourButtons">
+            <button id="clear"value=" " onclick="Refresh(' ')">c</button>
+          </div>
+
+          <div class="rowFourButtons">
+            <button id="zero" value="0" onclick="ins(0)">0</button>
+          </div>
+
+          <div class="rowFourButtons">
+            <button id="add" value="+" onclick="ins('+')">+</button>
+          </div>
+
+          <div class="rowFourButtons">
+            <button id="equals" class="orange" value="=" onclick="equal()">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>

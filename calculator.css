@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+}
+header {
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 0;
+}
+
+button {
+  margin: 5px;
+  font-size: 3.5rem;
+  padding: 20px 45px;
+  border-radius: 35px;
+  cursor: pointer;
+}
+
+.container {
+  align-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: center;
+  flex-wrap: nowrap;
+  margin-top: 50px;
+  background-color: black;
+  opacity: 0.7;
+  width: 550px;
+  height: 700px;
+  border-radius: 5%;
+}
+
+.inputButtons {
+  margin-top: 170px;
+}
+
+.first-row {
+  display: flex;
+  justify-content: center;
+}
+
+.second-row {
+  display: flex;
+  justify-content: center;
+}
+
+.third-row {
+  display: flex;
+  justify-content: center;
+}
+
+.fourth-row {
+  display: flex;
+  justify-content: center;
+}
+
+.orange {
+  background-color: orange;
+  color: white;
+}
+
+.answerBar {
+  position: absolute;
+  top: 150px;
+  height: 150px;
+  width: 500px;
+  background-color: rgb(255, 255, 255);
+  font-size: 4.5rem;
+  border-radius: 20px;
+}
